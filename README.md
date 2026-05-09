@@ -179,4 +179,7 @@ Com foco em:
 * Evolução em arquitetura de software
 * Consolidação de conhecimentos em Java e Banco de Dados
 * Desenvolvimento de portfólio profissional
-    
+
+## DER do Projeto
+
+![DER](der/gesttec-der.png)
