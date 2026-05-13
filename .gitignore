@@ -1,8 +1,15 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
+
+### Maven / Gradle ###
+target/
+build/
+.gradle/
 
 ### Eclipse ###
 .apt_generated
@@ -26,8 +33,18 @@ bin/
 ### VS Code ###
 .vscode/
 
+### Node ###
+node_modules/
+
+### Logs ###
+*.log
+
+### Temp ###
+*.tmp
+*.dtmp
+
+### Executables ###
+*.exe
+
 ### Mac OS ###
 .DS_Store
-.idea/
-*.iml
-*.exe
