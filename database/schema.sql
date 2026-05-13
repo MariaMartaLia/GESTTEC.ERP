@@ -64,7 +64,7 @@ CREATE TABLE ingrediente(
 
    id UUID PRIMARY KEY NOT NULL,
    nome VARCHAR(100) NOT NULL,
-   descricao VARCHAR(200),
+   ativo BOOLEAN NOT NULL,
    quantidade_estoque INTEGER NOT NULL,
    unidade_medida VARCHAR(20),
    perecivel BOOLEAN NOT NULL,
@@ -81,15 +81,26 @@ CREATE TABLE receita_ingrediente(
     FOREIGN KEY (ingrediente_id)
         REFERENCES ingrediente(id)
 );
+CREATE TABLE estoque(
+       id UUID PRIMARY KEY NOT NULL,
+       quantidade_atual INTEGER NOT NULL,
+       estoque_minimo INTEGER,
+       estoque_maximo INTEGER,
+       ultima_movimentacao TIMESTAMP,
+       produto_id UUID NOT NULL UNIQUE,
+
+       FOREIGN KEY (PRODUTO_ID)
+           REFERENCES produto(id)
+);
 CREATE TABLE movimentacao_estoque(
     id UUID PRIMARY KEY NOT NULL,
     tipo_movimentacao VARCHAR(100) NOT NULL,
     quantidade INTEGER NOT NULL,
     data_movimentacao TIMESTAMP NOT NULL,
     observacao VARCHAR(300),
-    produto_id UUID NOT NULL,
-    FOREIGN KEY (produto_id)
-        REFERENCES produto(id)
+    estoque_id UUID NOT NULL,
+    FOREIGN KEY (estoque_id)
+        REFERENCES estoque(id)
 );
 
 
