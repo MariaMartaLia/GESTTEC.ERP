@@ -15,4 +15,29 @@ public class ReceitaIngrediente {
         this.quantidade = quantidade;
         this.unidadeMedida = unidadeMedida;
     }
+    public void setId(UUID id) {
+        this.id = id;
+    }
+    public void setQuantidade(BigDecimal quantidade) {
+        this.quantidade = quantidade;
+    }
+    public void setUnidadeMedida(String unidadeMedida) {
+        this.unidadeMedida = unidadeMedida;
+    }
+    public void setIngrediente(Ingrediente ingrediente) {
+        this.ingrediente = ingrediente;
+    }
+    public UUID getId() {
+        return id;
+    }
+    public BigDecimal getQuantidade() {
+        return quantidade;
+    }
+    public String getUnidadeMedida() {
+        return unidadeMedida;
+    }
+    public Ingrediente getIngrediente() {
+        return ingrediente;
+    }
+
 }

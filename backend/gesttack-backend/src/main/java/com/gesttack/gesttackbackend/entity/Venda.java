@@ -23,4 +23,42 @@ public class Venda {
         this.Observacao = observacao;
 
     }
+
+    public UUID getId() {
+        return id;
+    }
+    public void setId(UUID id) {
+        this.id = id;
+    }
+    public LocalDateTime getDataVenda() {
+        return dataVenda;
+    }
+    public void setDataVenda(LocalDateTime dataVenda) {
+        this.dataVenda = dataVenda;
+    }
+    public BigDecimal getValorTotal() {
+        return valorTotal;
+    }
+    public void setValorTotal(BigDecimal valorTotal) {
+        this.valorTotal = valorTotal;
+    }
+    public Boolean getStatus() {
+        return status;
+    }
+    public void setStatus(Boolean status) {
+        this.status = status;
+    }
+    public String getObservacao() {
+        return Observacao;
+    }
+    public void setObservacao(String observacao) {
+        Observacao = observacao;
+    }
+    public List<ItemVenda> getItens() {
+        return itens;
+    }
+    public void setItens(List<ItemVenda> itens) {
+        this.itens = itens;
+    }
+
 }
