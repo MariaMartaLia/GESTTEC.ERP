@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7351eac-3487-41b3-81eb-67ed87fe22ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Movimentacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Estoque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Ingrediente.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Ingrediente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/ItemVenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/ItemVenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Marca.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Marca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/MovimentacaoEstoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/MovimentacaoEstoque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Receita.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Receita.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/ReceitaIngrediente.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/ReceitaIngrediente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Tipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Tipo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gesttack-backend/src/main/java/com/gesttack/gesttackbackend/entity/Venda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +49,9 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0,
   &quot;fromUser&quot;: false

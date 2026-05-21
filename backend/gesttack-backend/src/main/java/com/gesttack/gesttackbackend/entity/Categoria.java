@@ -41,5 +41,11 @@ public class Categoria {
     public void setProdutos(List<Produto> produtos) {
         this.produtos = produtos;
     }
+    public void adicionarProduto(Produto produto) {
+        this.produtos.add(produto);
+    }
+    public void removeProduto(Produto produto) {
+        this.produtos.remove(produto);
+    }
 
 }

@@ -111,4 +111,17 @@ public class Produto {
     public void setCodigoBarras(String codigoBarras) {
         this.codigoBarras = codigoBarras;
     }
+public void ativar() {
+        ativo = true;
+}
+
+public void desativar() {
+        ativo = false;
+}
+public void alterarPrecoVenda(BigDecimal precoVenda) {
+    this.precoVenda = precoVenda;
+}
+public void mudarObservacao(String observacao) {
+    this.observacao = observacao;
+}
 }

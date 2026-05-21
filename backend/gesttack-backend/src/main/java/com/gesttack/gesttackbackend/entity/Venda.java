@@ -60,5 +60,11 @@ public class Venda {
     public void setItens(List<ItemVenda> itens) {
         this.itens = itens;
     }
+public void adicionarItemVenda(ItemVenda itemVenda) {
+        this.itens.add(itemVenda);
+}
+public void removerItemVenda(ItemVenda itemVenda) {
+        this.itens.remove(itemVenda);
+}
 
 }

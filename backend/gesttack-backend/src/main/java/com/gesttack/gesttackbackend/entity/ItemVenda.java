@@ -5,13 +5,13 @@ import java.util.UUID;
 
 public class ItemVenda {
     private UUID id;
-    private Integer quantidade;
+    private BigDecimal quantidade;
     private BigDecimal precoUnitario;
     private BigDecimal subTotal;
 
     private Produto produto;
 
-    public ItemVenda( UUID id, Integer quantidade, BigDecimal precoUnitario, BigDecimal subTotal) {
+    public ItemVenda(UUID id, BigDecimal quantidade, BigDecimal precoUnitario, BigDecimal subTotal) {
         this.id = id;
         this.quantidade = quantidade;
         this.precoUnitario = precoUnitario;
@@ -24,10 +24,10 @@ public class ItemVenda {
     public void setId(UUID id) {
         this.id = id;
     }
-    public Integer getQuantidade() {
+    public BigDecimal getQuantidade() {
         return quantidade;
     }
-    public void setQuantidade(Integer quantidade) {
+    public void setQuantidade(BigDecimal quantidade) {
         this.quantidade = quantidade;
     }
     public BigDecimal getPrecoUnitario() {
@@ -47,6 +47,11 @@ public class ItemVenda {
     }
     public void setProduto (Produto produto) {
         this.produto = produto;
+    }
+
+    public void calcularSubTotal( ) {
+        this.subTotal = quantidade.multiply (precoUnitario);
+
     }
 
 }
